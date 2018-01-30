@@ -1,11 +1,22 @@
 
 import React from 'react'
+import {connect} from 'react-redux'
 
 import {Section} from 'view/Shared/Structural'
-import {H1} from 'view/Shared/Typography'
 
-export const Home = () => (
+import {Viewport} from 'view/Viewport'
+import {Block} from 'view/Block'
+
+const mapStateToProps = state => ({
+  block: state.blocks
+})
+
+const Container = ({block}) => (
   <Section>
-    <H1>Home</H1>
+    <Viewport>
+      <Block id={block.id} matrix={block.matrix} />
+    </Viewport>
   </Section>
 )
+
+export const Home = connect(mapStateToProps)(Container)

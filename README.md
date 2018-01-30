@@ -1,9 +1,9 @@
 
-# Greenfield
+# Saga Motion
 
-Opinionated application organization and libraries for bootstrapping new React-based applications.
+Quick and dirty PoC of animations controlled via redux-saga.
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+This project was bootstrapped with [Greenfield](https://github.com/bfillmer/greenfield).
 
 ## Commands
 

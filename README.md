@@ -25,3 +25,4 @@ yarn lint # fix basic linting errors
 * `redux-actions` simplify actions boilerplate (https://github.com/acdlite/redux-actions)
 * `redux-data-structures` simplify reducer boilerplate (https://redux-data-structures.js.org/)
 * `axios` just-works http client (https://github.com/axios/axios)
+* `dynamics.js` simple transition library https://github.com/michaelvillar/dynamics.js
